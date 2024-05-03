@@ -1,0 +1,255 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+ font-family: "Ubuntu", sans-serif;
+}
+
+body {
+ background-color: #191919;
+ height: 100vh;
+}
+
+.começo {
+ max-width: 1280px;
+ margin: 0 auto;
+}
+
+header {
+ padding: 40px 4%;
+}
+
+nav {
+ /* display: flex; */
+ /* align-items: center; */
+ /* justify-content: space-between; */
+ position: absolute;
+ left: 28%;    
+}
+
+.portfolio {
+ color: white;
+ font-size: 40px;
+}
+
+.portfolio span {
+color: rgb(213, 30, 219);    
+}
+
+header a{
+ color: #555454;
+ text-decoration: none;
+ display: inline-block;
+ transition: 0.3s;
+ padding-left: 68px;    
+}
+
+header a:hover {
+ color: #fff;
+ transform: scale(1.05); 
+}
+
+ul {
+ list-style-type: none;
+}
+
+li {
+ display: inline-block;
+ padding: 0 45px;
+ cursor: pointer;
+}
+
+.meu-nome {
+ position: absolute;
+ top: 30%;
+ color: #fff;
+ font-size: 20px;
+}
+.meu-nome span {
+ color: rgb(213, 30, 219);    
+}
+
+.flex {
+display: flex;
+}
+
+section .topo-do-site {
+ padding: 40px 4%;
+}
+
+section .topo-do-site.flex {
+ align-items: center;
+ justify-content: center;    
+}
+
+.topo-do-site h1 {
+ color: #fff;
+ position: absolute;
+ top: 63%;
+ left: 3%;
+ font-size: 30px;    
+}
+
+.topo-do-site p {
+color: #fff;
+position: absolute;
+top: 70%;
+left: 3%;
+font-size: 19px;    
+}
+
+.img-topo-site {
+ position: absolute;
+ left: 45%;
+ top: 25%;    
+}
+
+.topo-do-site span {
+ color: rgb(213, 30, 219);
+}
+
+.topo-do-site .img-topo-site img {
+ position: relative;
+ animation: mexer 2s ease-in-out infinite alternate;
+}
+
+@keyframes mexer {
+0%{
+    top: 0;
+}
+100%{
+    top: 30px;
+}    
+}
+
+section.sobre {
+ padding: 40px 4%;    
+}
+
+.img-sobre {
+ position: absolute;
+ top: 90%;
+   
+}
+
+.txt-sobre h2 {
+position: absolute;
+top: 108%;
+left: 32%;
+font-size: 35px;
+color: #fff;    
+}
+
+.txt-sobre h2 span {
+ color:rgb(213, 30, 219);    
+}
+
+.txt-sobre p {
+position: absolute;
+top: 132%;
+left: 32%;
+font-size: 23px;
+color: #fff; 
+}
+
+.sobre .txt-sobre .social button {
+ position: absolute;
+ top: 150%;
+ left: 40%;
+ width: 60px;
+ height: 60px;    
+}
+
+section.sobre .flex {
+ align-items: center;    
+}
+
+.instagram {
+ position: absolute;
+ top: 133%;
+ left: 28%;
+ cursor: pointer;
+}
+
+.linkedin {
+ position: absolute;
+ top: 133%;
+ left: 25%;
+ cursor: pointer;
+}
+
+section .proje h2 {
+ position: absolute;
+ top: 200%;
+ left: 41%;
+ font-size: 40px;
+ color: #fff;
+}
+
+section .proje h2 span {
+color: rgb(213, 30, 219);    
+}
+
+section .projeto {
+ padding: 80px 4%;
+ box-shadow: 0 0 40px 10px #ffffff;
+}
+
+section .projeto .flex {
+ justify-content: space-around;    
+}
+
+.img-projeto {
+ width: 440px;
+ height: 430px;
+ background-color: rgb(213, 30, 219);
+ position: absolute;
+ top: 220%;
+ left: 32%;
+ background-size: cover;
+ border-radius: 12px;
+}
+
+.img-proje {
+ width: 360px;
+ height: 430px;
+ background-color: rgb(213, 30, 219);
+ position: absolute;
+ top: 220%;
+ left: 4%;
+ background-size: cover;
+ border-radius: 12px;
+ }
+
+ .img-pro {
+    width: 450px;
+    height: 430px;
+    background-color: rgb(213, 30, 219);
+    position: absolute;
+    top: 220%;
+    left: 66%;
+    background-size: cover;
+    border-radius: 12px;
+   }
+
+.final p {
+ color: #fff;
+ position: absolute;
+ top: 300%;
+ left: 43%;
+ font-size: 25px;
+}
+
+@media screen and (max-width: 1020px){
+    /* classes gerais */
+.flex {
+ flex-direction: column;    
+}    
+
+    /* cabeçalho */
+.menu-desktop{
+display: none;    
+}    
+}
+
+
